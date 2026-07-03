@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <center>
+        <h3>Student registration form</h3>
+        <form action="detail.txt" method="post">
+            <div>
+                <label for="name">Username:</label>
+                <input type="text" placeholder="Enter your name" id="name" required>
+            </div>
+            <br>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" placeholder="Enter your password" id="password" required>
+            </div>
+            <br>
+            <div>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="Gender">male
+                <input type="radio" name="Gender">Female
+                <input type="radio" name="Gender">other
+            </div>
+            <div>
+                <lable for="Subjects">Subjects:</lable>
+                <input type="checkbox" name="Subjects">Maths
+                <input type="checkbox" name="Subjects">Science  
+                <input type="checkbox"  name="Subjects">English 
+            </div>
+            <br>
+            <div>
+                <label for="course">Course:</label>
+                <select name="course" id="course"  >
+                    <option value="BCA">BCA</option>
+                    <option value="BSc">BSc</option>
+                    <option value="BA">BA</option>
+                </select>
+
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Enter your email" id="email">
+            </div>
+            <br>
+            <div>
+                <label for="Number">Phone Number:</label>
+                <input type="number" placeholder="Enter your number" id="Number" required>
+            </div>
+            <br>
+            <div>
+                
+                <textarea rows="3" placeholder="Enter your address" id="address"  ></textarea>
+                
+            </div>
+            <div>
+                <input type="submit">
+                <input type="reset" >
+            </div>
+
+
+        </form>
+    </center>
+</body>
+
+</html>
